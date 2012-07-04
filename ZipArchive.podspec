@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "ZipArchive"
   s.version      = "0.1"
-  s.summary      = "An Objective C class for zip/unzip on iPhone and Mac OSX"
+  s.summary      = "An Objective C class for zip/unzip on iPhone and Mac OSX."
   s.homepage     = "https://github.com/orta/ZipArchive"
 
   s.license      = 'MIT'
