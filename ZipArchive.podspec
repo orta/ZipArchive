@@ -6,12 +6,12 @@ Pod::Spec.new do |s|
 
   s.license      = 'MIT'
 
-  s.author       = { "Orta Therox" => "orta.therox@gmail.com" }
-  s.source       = { :git => "https://github.com/orta/ZipArchive.git" , :tag => '1.1'}
+  s.authors       = { "Orta Therox" => "orta.therox@gmail.com" }
+  s.source       = { :git => "https://github.com/orta/ZipArchive.git" }
 
   s.platform     = :ios
   s.ios.deployment_target = '4.3'
   s.source_files = 'ZipArchive.{h,m}', 'minizip/**/*.{c,h}'
-  s.framework  = 'Foundation'
-  s.library   = 'libz'
+  s.frameworks  = 'Foundation'
+  s.libraries   = 'libz'
 end
