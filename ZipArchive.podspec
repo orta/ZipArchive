@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '4.3'
   s.source_files = 'ZipArchive.{h,m}', 'minizip/**/*.{c,h}'
+  
+  s.header_dir = 'minizip'
   s.frameworks  = 'Foundation'
   s.libraries   = 'libz'
 end
